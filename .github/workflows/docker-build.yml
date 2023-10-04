@@ -18,7 +18,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: Vikttrr/lab3:latest
+        tags: vikttrr/lab3:latest
 
     - name: Save result to a text file
       run: echo "Docker image built successfully." > image_build_result.txt
